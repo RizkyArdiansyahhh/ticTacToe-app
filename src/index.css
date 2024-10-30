@@ -5,13 +5,22 @@
 }
 body {
   font-family: sans-serif;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-button {
+button.square {
   width: 35px;
   height: 35px;
+  cursor: pointer;
+  background-color: white;
 }
+
 .board {
   display: flex;
   flex-wrap: wrap;
-  width: calc(35 * 9);
+  width: 105px;
+  justify-content: center;
 }
